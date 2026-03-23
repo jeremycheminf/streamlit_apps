@@ -1,4 +1,8 @@
-streamlit
-pandas
-seaborn
-matplotlib
+# Requirements for SMIRKS Transformer Streamlit App
+# This app is designed to run in the cheminf_utils environment
+
+# Streamlit for the web application framework
+streamlit>=1.28.0
+
+# RDKit is already included in cheminf_utils environment
+# No additional cheminformatics dependencies needed as they're in the base environment
